@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/partial/header/header.component';
+import { FoodpageComponent } from './components/pages/foodpage/foodpage.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent],
+  imports: [RouterOutlet,HeaderComponent,FoodpageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
